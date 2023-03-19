@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": "functions",
+    "incremental": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "types": []
+  },
+  "include": [
+    "functions/**/*.ts",
+    "functions/**/*.json"
+  ],
+  "exclude": [
+    "node_modules",
+    "functions/**/node_modules",
+    "functions/**/test",
+    "dist",
+    "functions/**/*.spec.ts"
+  ]
+}

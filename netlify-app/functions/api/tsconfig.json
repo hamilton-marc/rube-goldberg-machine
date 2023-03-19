@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "rootDir": ".",
+    "outDir": "../../dist/functions/api",
+    "types": [
+      "node",
+      "express",
+      "jest"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.json", "repos/note.repo.inmemts"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
+}
